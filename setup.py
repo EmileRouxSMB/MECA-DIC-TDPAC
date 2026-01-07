@@ -5,7 +5,13 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
-        'pypost7D @ git+https://gitlab.com/symmehub/py7DPost.git'
+        'pypost7D @ git+https://gitlab.com/symmehub/py7DPost.git',
+        'pandas',
+        'numpy',
+        'matplotlib',
+        'scipy',
+        'ipympl',
+        'jupyterlab',
     ],
     include_package_data=True,
     description='Description de votre package',
@@ -17,5 +23,5 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.12',
 )
