@@ -1,2 +1,4 @@
 /Passieux2104.pdf
 *.egg-info*
+.ipynb_checkpoints/MECA510-TD15-16-checkpoint.ipynb
+.ipynb_checkpoints/setup-checkpoint.py
